@@ -1,0 +1,59 @@
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <title>Home</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+</head>
+  
+<body class="relative min-h-screen font-sans">
+
+  <!-- Background Blur -->
+  <div class="absolute inset-0">
+    <img src="img/bg.png" class="w-full h-full object-cover blur-md" />
+  </div>
+
+  <!-- Content -->
+  <div class="relative z-10 min-h-screen flex items-center px-10">
+
+    <div class="w-full max-w-md text-black">
+
+      <h1 class="text-4xl font-bold mb-2">Welcome Back</h1>
+      <p class="mb-8 text-gray-700">Silakan login untuk melanjutkan</p>
+
+      <form class="space-y-4" action="index.html">
+       <input 
+  type="text"
+  placeholder="Username"
+  class="w-full p-3 rounded-xl 
+         bg-white/70 backdrop-blur-sm 
+         border border-white/40
+         focus:outline-none 
+         focus:ring-2 focus:ring-black/30
+         transition"
+/>
+
+<input 
+  type="password"
+  placeholder="Password"
+  class="w-full p-3 rounded-xl 
+         bg-white/70 backdrop-blur-sm 
+         border border-white/40
+         focus:outline-none 
+         focus:ring-2 focus:ring-black/30
+         transition"
+/>
+
+        <button class="w-full bg-black text-white py-3 rounded-lg hover:opacity-80 transition">
+          Login
+        </button>
+      </form>
+
+    </div>
+
+  </div>
+
+</body>
+  
+</html>
